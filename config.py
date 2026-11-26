@@ -27,32 +27,32 @@ VOICE_PROFILES = {
     "dark_male": {
         "engine": "silero",
         "speaker": "eugene",
-        "af": "asetrate=48000*0.93,aresample=44100,atempo=1.02,bass=g=4:f=110",
-        "description": "Низкий тяжёлый мужской голос — тёмная психология, угрозы, манипуляции, власть",
+        "af": "aresample=48000,asetrate=48000*0.96,aresample=44100,highpass=f=75,bass=g=3:f=130,equalizer=f=3200:t=q:w=1.5:g=-3.5,lowpass=f=10500,aecho=0.85:0.88:120|210:0.18|0.09",
+        "description": "Низкий глубокий мужской голос с лёгким эхом — тёмная психология, манипуляции, власть",
     },
     "calm_male": {
         "engine": "silero",
         "speaker": "aidar",
-        "af": "aresample=44100,atempo=0.96",
+        "af": "aresample=48000,asetrate=48000*0.97,aresample=44100,highpass=f=80,bass=g=2:f=140,equalizer=f=3400:t=q:w=1.5:g=-3,lowpass=f=11000,aecho=0.88:0.88:130:0.14",
         "description": "Спокойный рассудительный мужской голос — тайны истории, стоицизм, факты, аналитика",
     },
     "sharp_female": {
         "engine": "edge",
         "speaker": "ru-RU-SvetlanaNeural",
-        "af": "aresample=44100,atempo=1.08,treble=g=2",
-        "description": "Быстрый холодный женский голос — резкие разоблачения, жёсткая правда, провокации",
+        "af": "aresample=44100,highpass=f=85,equalizer=f=3500:t=q:w=1.5:g=-2,aecho=0.88:0.88:120:0.14",
+        "description": "Чёткий холодный женский голос с лёгким эхом — резкие разоблачения, жёсткая правда",
     },
     "emotional_female": {
         "engine": "silero",
         "speaker": "kseniya",
-        "af": "aresample=44100,atempo=1.02",
-        "description": "Выразительный эмоциональный женский голос — отношения, привязанность, качели",
+        "af": "aresample=44100,highpass=f=85,equalizer=f=3200:t=q:w=1.5:g=-3,lowpass=f=11500,aecho=0.88:0.88:125:0.15",
+        "description": "Живой выразительный женский голос — отношения, привязанность, эмоциональные качели",
     },
     "calm_female": {
         "engine": "silero",
         "speaker": "baya",
-        "af": "aresample=44100,atempo=0.94",
-        "description": "Мягкий спокойный женский голос — антистресс, сон, одиночество, философия",
+        "af": "aresample=48000,asetrate=48000*0.98,aresample=44100,highpass=f=85,bass=g=2:f=150,equalizer=f=3200:t=q:w=1.5:g=-3,lowpass=f=11000,aecho=0.85:0.88:140:0.16",
+        "description": "Мягкий спокойный женский голос с лёгким эхом — антистресс, сон, одиночество, философия",
     },
 }
 
